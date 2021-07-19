@@ -59,6 +59,7 @@ You will be running your tests in one terminal and debugging in the other. As yo
 Edit the `ReadMe` file with your answers to the questions below.
 
 1. In your own words, define closure (1-2 sentences).
+Closure basically means you're accessing things outside of the function. You can access going up but cannot access going down. In other words a child can take from the parent but the parent cannot take from the child.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -79,9 +80,9 @@ dansRoll();
 dansRoll();
 ```
 
-a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
+a. Where is closure used in this code? How can you tell? inside because its local.
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change? the variable is always the same but the value changes
+c. What is the lexical scope of `newRoll`? Personal Dice
 
 
 ### Task 3 - Stretch Goals
